@@ -9,6 +9,9 @@ public class Pref {
 
     private static final String SHARED_PREFERENCES_FILE_NAME = "MobHubSharedPref";
     public static final String IS_LOGGED_IN = "false";
+    public static final String IS_FIRST = "isFirst";
+    public static String SELECTED_LANGUAGE = "selected_language_code";
+
 
     public static Boolean getIsLoggedIn() {
         return (Boolean) read(IS_LOGGED_IN, Boolean.class);
@@ -16,6 +19,22 @@ public class Pref {
 
     public static void setIsLoggedIn(boolean appMain) {
         write(IS_LOGGED_IN, appMain);
+    }
+
+    public static Boolean isFirst() {
+        return (Boolean) read(IS_FIRST, Boolean.class);
+    }
+
+    public static void setIsFirst(boolean appMain) {
+        write(IS_FIRST, appMain);
+    }
+
+    public static void setSelectedLanguage(String appMain) {
+        write(SELECTED_LANGUAGE, appMain);
+    }
+
+    public static String getSelectedLanguage() {
+        return (String) read(SELECTED_LANGUAGE, String.class);
     }
 
     public static void write(String key, Object value) {
