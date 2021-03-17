@@ -262,4 +262,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     }
 
+    public void addToCart(){
+
+    }
+
+    public void removeFromCart(){
+
+    }
+
+    public void updateCart(){
+
+    }
+
+
+
+
 }
