@@ -51,7 +51,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
 
             case R.id.tv_select_lang:
-
+                Intent in = new Intent(MainActivity.this, SelectLanguageActivity.class);
+                startActivity(in);
                 break;
 
         }
