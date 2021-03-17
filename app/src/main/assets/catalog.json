@@ -1,0 +1,62 @@
+{
+  "smartphone": [
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    },
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    },
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    }
+  ],
+  "laptop": [
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    },
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    },
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    }
+  ],
+  "accessories": [
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    },
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    },
+    {
+      "name": "Samsung Mobile",
+      "price": "CAD 1190",
+      "image": "sdchbsjhbcjsl",
+      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+    }
+  ]
+}
