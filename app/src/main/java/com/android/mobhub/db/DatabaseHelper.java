@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.android.mobhub.model.CatalogItem;
 import com.android.mobhub.model.User;
 
 import java.util.ArrayList;
@@ -27,6 +28,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_USER_NAME = "user_name";
     private static final String COLUMN_USER_EMAIL = "user_email";
     private static final String COLUMN_USER_PASSWORD = "user_password";
+
 
     // create table sql query
     private String CREATE_USER_TABLE = "CREATE TABLE " + TABLE_USER + "("
@@ -254,4 +256,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return false;
     }
+
+    public void addItem(CatalogItem item){
+//        SQLiteOpenHelper helper =
+
+    }
+
 }

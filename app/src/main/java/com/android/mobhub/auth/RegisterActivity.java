@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.android.mobhub.BaseActivity;
 import com.android.mobhub.MainActivity;
 import com.android.mobhub.R;
 import com.android.mobhub.db.DatabaseHelper;
@@ -19,7 +20,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
-public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
+public class RegisterActivity extends BaseActivity implements View.OnClickListener {
 
     private final AppCompatActivity activity = RegisterActivity.this;
 
@@ -43,7 +44,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private User user;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         getSupportActionBar().hide();
@@ -109,7 +110,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 break;
 
             case R.id.appCompatTextViewLoginLink:
-                finish();
+                Intent in = new Intent(RegisterActivity.this,LoginActivity.class);
+                startActivity(in);
                 break;
         }
     }
