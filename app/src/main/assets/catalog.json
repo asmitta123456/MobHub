@@ -1,62 +1,86 @@
 {
-  "smartphone": [
+  "SMARTPHONE": [
     {
-      "name": "Samsung Mobile",
+      "name": "Iphone-12-pro",
       "price": "CAD 1190",
-      "image": "https://www.dropbox.com/sh/q1rm8ip6riib139/AAD-FsYAxrTAvRu7z6Sw6q-Ga/WhatsApp%20Image%202021-03-17%20at%2010.59.41%20AM%20%281%29.jpeg",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "image": "https://www.dropbox.com/s/qace1m2ncqgye3v/iphone-12-pro-max-family-hero-all.jpg",
+      "desc": "All new Iphone 12 pro max with Blue color"
     },
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "link",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Samsung Galaxy S20",
+      "price": "CAD 900",
+      "image": "https://www.dropbox.com/s/qoypm3mijtmbdeh/samsung-galaxy-s20_158149172890.jpg",
+      "desc": "Samsung Phone with best in budget"
     },
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Oneplus-8",
+      "price": "CAD 800",
+      "image": "https://www.dropbox.com/s/jbjjq6wqnuzolv2/OnePlus-8-1.jpg",
+      "desc": "Oneplus-8, Never settle "
+    },
+    {
+      "name": "Samsung S20 5G",
+      "price": "CAD 1000",
+      "image": "https://www.dropbox.com/s/4xnpj70v1c8k1ed/samsung-galaxy-s20-5g-r1.jpg",
+      "desc": "Samsung has introduced 5G feature "
+    },
+    {
+      "name": "Iphone-11 pro",
+      "price": "CAD 850",
+      "image": "https://www.dropbox.com/s/2rm67mu1f7q2n9t/iphone_11_pro.jpg",
+      "desc": "Iphone 11 pro edition "
     }
   ],
-  "laptop": [
+  "LAPTOP": [
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Macbook Air",
+      "price": "CAD 2000",
+      "image": "https://www.dropbox.com/s/53h9u1g5p1ikqwx/macbook.jpg",
+      "desc": "Macbook Air with superfast Operating system"
     },
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Dell Inspiron",
+      "price": "CAD 1290",
+      "image": "https://www.dropbox.com/s/8js3mjrd8yiqsb7/dell_laptop_1.jpg",
+      "desc": "Dell Inspiron with intel core i5"
     },
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Acer Inspire",
+      "price": "CAD 1390",
+      "image": "https://www.dropbox.com/s/9hnkyvkereynzeu/acer_aspire.jpg",
+      "desc": "Acer super slim with AMD graphics"
+    },
+    {
+      "name": "Lenovo Yoga 7E",
+      "price": "CAD 1300",
+      "image": "https://www.dropbox.com/s/mub0vo2kdtsbqof/lenovo_yoga.jpg",
+      "desc": "Lenovo super slim laptop, with 8 GB RAM"
     }
   ],
-  "accessories": [
+  "ACCESSORIES": [
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "JBL headphone ",
+      "price": "CAD 600",
+      "image": "https://www.dropbox.com/s/krsj15hia7w42jc/JBL_headphone.jpeg",
+      "desc": "JBL noise cancellation headphones"
     },
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Apple Airpods",
+      "price": "CAD 350",
+      "image": "https://www.dropbox.com/s/vnmdcp8vg7t8lbu/AirPods.jpg",
+      "desc": "Apple wireless earbuds"
     },
     {
-      "name": "Samsung Mobile",
-      "price": "CAD 1190",
-      "image": "sdchbsjhbcjsl",
-      "desc": "ksdjhvbsjlhdvblsjvbsjklvblskdjvb"
+      "name": "Apple Airpods Max",
+      "price": "CAD 550",
+      "image": "https://www.dropbox.com/s/dr5q8hvg4bpyepb/apple_mgyn3am_a_airpods_max_green_1610235.jpg",
+      "desc": "Apple Airpods max with light green color"
+    },
+    {
+      "name": "Amazon Fire tv Stick",
+      "price": "CAD 250",
+      "image": "https://www.dropbox.com/s/xveg81aa4w4rv8n/Amazon_firetvstick.jpg",
+      "desc": "Amazon Fire tv stick, make your normal tv as smart tv"
     }
   ]
 }

@@ -13,6 +13,7 @@ import com.android.mobhub.BaseActivity;
 import com.android.mobhub.MainActivity;
 import com.android.mobhub.R;
 import com.android.mobhub.db.DatabaseHelper;
+import com.android.mobhub.db.Pref;
 import com.android.mobhub.utils.InputValidation;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -119,7 +120,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         if (databaseHelper.checkUser(textInputEditTextEmail.getText().toString().trim()
                 , textInputEditTextPassword.getText().toString().trim())) {
 
-
+            Pref.setIsLoggedIn(true);
+            Pref.setLoggedEmail(textInputEditTextEmail.getText().toString().trim());
             Intent accountsIntent = new Intent(activity, MainActivity.class);
             accountsIntent.putExtra("EMAIL", textInputEditTextEmail.getText().toString().trim());
             emptyInputEditText();

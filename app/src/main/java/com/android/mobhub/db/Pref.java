@@ -11,6 +11,7 @@ public class Pref {
     public static final String IS_LOGGED_IN = "false";
     public static final String IS_FIRST = "isFirst";
     public static String SELECTED_LANGUAGE = "selected_language_code";
+    public static String LOGGED_EMAIL = "logged_email";
 
 
     public static Boolean getIsLoggedIn() {
@@ -35,6 +36,14 @@ public class Pref {
 
     public static String getSelectedLanguage() {
         return (String) read(SELECTED_LANGUAGE, String.class);
+    }
+
+    public static void setLoggedEmail(String appMain) {
+        write(LOGGED_EMAIL, appMain);
+    }
+
+    public static String getLoggedEmail() {
+        return (String) read(LOGGED_EMAIL, String.class);
     }
 
     public static void write(String key, Object value) {

@@ -23,6 +23,7 @@
     <string name="smartphone">SmartPhone</string>
     <string name="laptop">Laptop</string>
     <string name="accessories">Accessories</string>
+    <string name="place_order">Place Order</string>
 
     <string name="select_lang">Select Language</string>
     <string name="english">English</string>

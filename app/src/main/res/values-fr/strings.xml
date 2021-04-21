@@ -24,6 +24,7 @@
     <string name="smartphone">Téléphone intelligent</string>
     <string name="laptop">Portable</string>
     <string name="accessories">Accessoires</string>
+    <string name="place_order">Passer la commande</string>
 
     <string name="select_lang">Select Language</string>
     <string name="english">English</string>

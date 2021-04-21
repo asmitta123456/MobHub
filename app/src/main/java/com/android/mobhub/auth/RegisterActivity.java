@@ -14,6 +14,7 @@ import com.android.mobhub.BaseActivity;
 import com.android.mobhub.MainActivity;
 import com.android.mobhub.R;
 import com.android.mobhub.db.DatabaseHelper;
+import com.android.mobhub.db.Pref;
 import com.android.mobhub.model.User;
 import com.android.mobhub.utils.InputValidation;
 import com.google.android.material.snackbar.Snackbar;
@@ -144,7 +145,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
             user.setPassword(textInputEditTextPassword.getText().toString().trim());
 
             databaseHelper.addUser(user);
-
+            Pref.setLoggedEmail(textInputEditTextEmail.getText().toString().trim());
             // Snack Bar to show success message that record saved successfully
             Snackbar.make(nestedScrollView, getString(R.string.success_message), Snackbar.LENGTH_LONG).show();
             emptyInputEditText();
@@ -169,5 +170,6 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         textInputEditTextEmail.setText(null);
         textInputEditTextPassword.setText(null);
         textInputEditTextConfirmPassword.setText(null);
+        Pref.setIsLoggedIn(true);
     }
 }
