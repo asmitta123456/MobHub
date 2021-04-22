@@ -1,6 +1,7 @@
 package com.android.mobhub.adapter;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,7 @@ import com.android.mobhub.R;
 import com.android.mobhub.db.DatabaseHelper;
 import com.android.mobhub.model.CatalogItem;
 import com.bumptech.glide.Glide;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -44,11 +46,16 @@ public class CatalogListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         final CatalogItem catalogItem = catalogItems.get(position);
 
 
-        Glide.with(context).load(catalogItem.getImage()).into(catalogHolder.imageView);
+//        Glide.with(context).load(catalogItem.getImage()).into(catalogHolder.imageView);
+        Picasso.get()
+                .load(catalogItem.getImage())
+                .into(catalogHolder
+                .imageView);
         catalogHolder.tvName.setText(catalogItem.getName());
         catalogHolder.tvDesc.setText(catalogItem.getDesc());
         catalogHolder.tvPrice.setText(catalogItem.getPrice());
 
+        Log.e("imagelink",catalogItem.getImage());
 
         if(databaseHelper.isInCart(catalogItem)){
             catalogHolder.btnAddToCart.setVisibility(View.GONE);

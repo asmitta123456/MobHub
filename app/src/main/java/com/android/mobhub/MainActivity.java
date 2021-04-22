@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.android.mobhub.auth.LoginActivity;
+import com.android.mobhub.db.Pref;
+
 public class MainActivity extends BaseActivity implements View.OnClickListener {
     AppCompatButton btnMobile,btnLaptop,btnAcc;
     TextView tvSelectLang;
@@ -26,6 +29,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         btnLaptop.setOnClickListener(this);
         btnAcc.setOnClickListener(this);
         tvSelectLang.setOnClickListener(this);
+        TextView tvLogout = findViewById(R.id.tv_logout);
+
+        tvLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Pref.setIsLoggedIn(false);
+                Intent in = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(in);
+            }
+        });
 
     }
 
